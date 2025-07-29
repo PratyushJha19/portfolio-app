@@ -15,41 +15,47 @@ const Footer = () => {
           Find me on these platforms and let's get in touch
         </p>
 
-        <div className="d-flex justify-content-center gap-4 flex-wrap mt-4">
-          <a
-            href="mailto:jhapratyush2006@gmail.com"
-            className="footer-card text-decoration-none"
-          >
-            <FaEnvelope className="footer-icon" />
-            <div className="footer-label">Gmail</div>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/pratyush-jha-1348b8263/"
-            className="footer-card text-decoration-none"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin className="footer-icon" />
-            <div className="footer-label">LinkedIn</div>
-          </a>
-          <a
-            href="https://github.com/PratyushJha19"
-            className="footer-card text-decoration-none"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub className="footer-icon" />
-            <div className="footer-label">GitHub</div>
-          </a>
-          <a
-            href="https://twitter.com/"
-            className="footer-card text-decoration-none"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaTwitter className="footer-icon" />
-            <div className="footer-label">Twitter</div>
-          </a>
+        <div className="d-flex justify-content-center flex-wrap gap-3 mt-4">
+          <div className="footer-col">
+            <a
+              href="mailto:jhapratyush2006@gmail.com"
+              className="footer-card text-decoration-none"
+            >
+              <FaEnvelope className="footer-icon" />
+              <div className="footer-label">Gmail</div>
+            </a>
+          </div>
+          <div className="footer-col">
+            <a
+              href="https://www.linkedin.com/in/pratyush-jha-1348b8263/"
+              className="footer-card text-decoration-none"
+            >
+              <FaLinkedin className="footer-icon" />
+              <div className="footer-label">LinkedIn</div>
+            </a>
+          </div>
+          <div className="footer-col">
+            <a
+              href="https://github.com/PratyushJha19"
+              className="footer-card text-decoration-none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="footer-icon" />
+              <div className="footer-label">GitHub</div>
+            </a>
+          </div>
+          <div className="footer-col">
+            <a
+              href="https://twitter.com/"
+              className="footer-card text-decoration-none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter className="footer-icon" />
+              <div className="footer-label">Twitter</div>
+            </a>
+          </div>
         </div>
       </div>
 

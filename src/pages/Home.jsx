@@ -1,7 +1,13 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 import "../styles/Home.css"; // Importing the Home.css styles
-import { FaCode, FaGamepad, FaPython, FaServer } from "react-icons/fa";
+import {
+  FaCode,
+  FaGamepad,
+  FaPython,
+  FaServer,
+  FaDownload,
+} from "react-icons/fa";
 import {
   Container,
   Row,
@@ -9,6 +15,7 @@ import {
   Card,
   OverlayTrigger,
   Tooltip,
+  Button,
 } from "react-bootstrap";
 
 const Home = () => {
@@ -138,8 +145,8 @@ const Home = () => {
                 </div>
                 <h5 className="service-title">Back-End Development</h5>
                 <p className="service-text">
-                  Building robust server-side applications with Node & Express
-                  JS, MongoDB, Django, MySQL, EJS.
+                  Building robust server-side applications with NodeJS,
+                  ExpressJS, MongoDB, Django, MySQL, EJS.
                 </p>
               </div>
             </div>
@@ -168,9 +175,9 @@ const Home = () => {
                 </div>
                 <h5 className="service-title">Python Development</h5>
                 <p className="service-text">
-                  Developing dynamic desktop applications and data tools using
-                  Python, Tkinter, MySQL integration, NumPy, Pandas, Matplotlib
-                  and Django.
+                  Developing dynamic desktop, web applications and data tools
+                  using Python, Tkinter, MySQL integration, NumPy, Pandas,
+                  Matplotlib and backend using Django.
                 </p>
               </div>
             </div>
@@ -213,6 +220,29 @@ const Home = () => {
             ))}
           </Row>
         </Container>
+      </section>
+
+      {/* Resume Section */}
+      <section className="">
+        <div className="resume-section">
+          <Container className="text-center">
+            <h2 className="resume-heading">
+              <span className="highlight">My</span> Resume
+            </h2>
+            <p className="resume-subtext">
+              Download my resume to learn more about my experience and skills
+            </p>
+            <Button
+              className="download-btn mt-3"
+              href="/PratyushResume.pdf"
+              target="_blank"
+              download
+            >
+              <FaDownload className="me-2" />
+              Download Resume
+            </Button>
+          </Container>
+        </div>
       </section>
     </Layout>
   );

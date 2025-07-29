@@ -194,3 +194,45 @@
   font-size: 1rem;
   color: white !important;
 }
+
+/* Resume Section */
+.resume-section {
+  background: linear-gradient(to top right, #0b0d14, #0b1b2b);
+  padding: 80px 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  color: white;
+}
+
+.resume-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.resume-heading .highlight {
+  color: #d86323;
+}
+
+.resume-subtext {
+  font-size: 1rem;
+  color: #fefefe;
+  margin-top: 10px;
+}
+
+.download-btn {
+  background: linear-gradient(145deg, #df7c2b, #ff7b00);
+  border: none;
+  color: black !important;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 700 !important;
+  font-size: large !important;
+  transition: all 0.3s ease !important;
+}
+
+.download-btn:hover {
+  background: linear-gradient(to left, #df7c2b, #ff7b00);
+  transform: translateY(-2px);
+  color: white !important;
+}

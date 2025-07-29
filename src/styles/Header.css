@@ -4,6 +4,11 @@
   padding: 1rem 2rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-family: "Poppins", sans-serif;
+  position: sticky !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 30 !important;
 }
 
 .logo-text {
@@ -16,6 +21,7 @@
   font-weight: 900;
   font-size: 32px;
   color: #d9713a;
+  padding-right: 0px;
 }
 
 .nav-link {
@@ -35,7 +41,7 @@
 }
 
 .navbar-collapse {
-  margin-right: 200px;
+  margin-right: 150px;
 }
 
 .custom-link:hover {

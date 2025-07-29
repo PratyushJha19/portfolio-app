@@ -8,7 +8,16 @@ const Header = () => {
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           <h3 className="logo-text m-0">
-            <span className="head-logo">&lt;/&gt; </span>Pratyush
+            {/* <span className="head-logo">&lt;/&gt; </span>Pratyush */}
+            <span className="head-logo">
+              <img
+                src="/PratyushLogo.png"
+                alt="PratLogo"
+                width="45px"
+                height="45px"
+              />
+            </span>{" "}
+            Pratyush
           </h3>
         </Link>
 
