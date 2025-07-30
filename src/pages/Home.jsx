@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
+import { Link } from "react-router-dom";
 import "../styles/Home.css"; // Importing the Home.css styles
 import {
   FaCode,
@@ -7,6 +8,7 @@ import {
   FaPython,
   FaServer,
   FaDownload,
+  FaExternalLinkAlt,
 } from "react-icons/fa";
 import {
   Container,
@@ -380,6 +382,24 @@ const Home = () => {
             </Card>
           ))}
         </Container>
+      </section>
+
+      {/* Projects Section */}
+      <section className="">
+        <div className="projects-section">
+          <Container className="text-center">
+            <h2 className="resume-heading">
+              My <span className="highlight">Projects</span>
+            </h2>
+            <p className="resume-subtext mb-4">
+              Explore my portfolio of hosted projects with source code 😃
+            </p>
+            <Link className="projects-btn mt-4" to="/projects">
+              <FaExternalLinkAlt className="me-2" />
+              Download Resume
+            </Link>
+          </Container>
+        </div>
       </section>
     </Layout>
   );
