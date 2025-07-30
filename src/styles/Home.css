@@ -80,6 +80,29 @@
   /* color: #d8935c; */
 }
 
+.hero-image {
+  /* max-width: 100%;
+  height: auto;
+  width: 550px; */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    width: 560px !important; /* Adjust width for smaller screens */
+    height: auto; /* You can set fixed height like 100vh if you want full screen height */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+  .col-md-6.text-center.mt-5.mt-md-0 {
+    padding: 0;
+  }
+}
+
 /* Services Section */
 
 .services-section {
@@ -235,4 +258,177 @@
   background: linear-gradient(to left, #df7c2b, #ff7b00);
   transform: translateY(-2px);
   color: white !important;
+}
+
+/* Experience Section */
+.experience-section {
+  background: linear-gradient(to bottom right, #0b0d14, #0b1b2b);
+  padding: 4rem 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.education-section {
+  background: linear-gradient(to top right, #0b0d14, #0b1b2b);
+  padding: 4rem 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.experience-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.experience-title .highlight {
+  color: #d86323;
+}
+
+.experience-subtitle {
+  color: #a5a5a5;
+  margin-bottom: 2rem;
+}
+
+.experience-card {
+  background-color: #0e1016 !important;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  border: none;
+  padding: 1rem;
+  text-align: left;
+}
+
+.company-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.company-name {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+.role-title {
+  color: #ccc !important;
+  font-weight: 500;
+  font-size: large;
+}
+
+.skills-text {
+  color: #ff5900cf !important;
+  font-weight: 500;
+  font-size: large;
+}
+
+.date-badge {
+  background-color: #4d3c36 !important;
+  color: #d86323 !important;
+  padding: 0.6rem 0.8rem !important;
+  font-size: 0.9rem !important;
+  margin-top: 0.2rem;
+  text-align: right !important;
+  margin-left: auto !important;
+}
+
+.date-badge-edu {
+  background-color: #4d3c36 !important;
+  color: #d86323 !important;
+  padding: 0.6rem 0.8rem !important;
+  font-size: 0.9rem !important;
+  margin-top: 0.2rem;
+  text-align: right !important;
+  margin-left: auto !important;
+}
+
+.description {
+  color: #a5a5a5;
+  font-size: large;
+}
+
+/* Small Devices (Max width: 576px) */
+@media (max-width: 576px) {
+  .experience-section {
+    padding: 2rem 1rem !important;
+  }
+
+  .experience-title {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .experience-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .experience-card {
+    padding: 1rem 0.75rem;
+  }
+
+  .company-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .company-name {
+    font-size: 1.25rem;
+  }
+
+  .role-title,
+  .skills-text,
+  .description {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .date-badge {
+    font-size: 0.75rem !important;
+    padding: 0.4rem 0.6rem !important;
+    margin: 1rem 0rem;
+    align-items: flex-start !important;
+    margin-right: 50px;
+  }
+  .date-badge-edu {
+    font-size: 0.75rem !important;
+    padding: 0.4rem 0.6rem !important;
+    margin: 1rem 0rem;
+    align-items: flex-start !important;
+    margin-right: 85px;
+  }
+}
+
+/* Medium Devices (Max width: 768px) */
+@media (max-width: 768px) {
+  .experience-card .row {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .experience-card .col-md-2,
+  .experience-card .col-md-10 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .company-logo {
+    margin: 0 auto 1rem auto;
+  }
+
+  .company-name {
+    margin-top: 0.5rem;
+  }
+  .date-badge {
+    font-size: 0.75rem !important;
+    padding: 0.4rem 0.6rem !important;
+    margin: 1rem 0rem;
+    align-items: flex-start !important;
+    margin-right: 50px;
+  }
 }
