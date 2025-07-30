@@ -23,28 +23,12 @@ import {
 } from "react-bootstrap";
 
 const Projects = () => {
-  const skills = [
-    { name: "Unity Enigine", icon: "/icons/unity.svg", level: "Intermediate" },
-    { name: "NodeJS", icon: "/icons/nodejs.svg", level: "Intermediate" },
-    { name: "C#", icon: "/icons/csharp.svg", level: "Intermediate" },
-    { name: "Python", icon: "/icons/python.svg", level: "Intermediate" },
-    { name: "Express JS", icon: "/icons/express.svg", level: "Intermediate" },
-    { name: "ReactJS", icon: "/icons/react.svg", level: "Intermediate" },
-    { name: "Django", icon: "/icons/django.svg", level: "Intermediate" },
-    { name: "MongoDB", icon: "/icons/mongodb.svg", level: "Intermediate" },
-    {
-      name: "PostgreSQL",
-      icon: "/icons/postgresql.svg",
-      level: "Intermediate",
-    },
-  ];
-
   const projects = [
     {
       title: "MERN Stack Ecommerce Frontend",
       description:
         "A full-stack e-commerce web application built using the MERN stack, featuring user authentication, product management, admin panel, and a shopping cart.",
-      img: "/icons/mern-ecommerce.png",
+      img: "/mernapp.png",
       liveURL: "https://mern-ecommerce-front-end.onrender.com/",
       githubURL: "https://github.com/PratyushJha19/MERN-Ecommerce-Front-End",
       techStack: [
@@ -63,7 +47,7 @@ const Projects = () => {
       title: "MERN Stack Ecommerce Backend",
       description:
         "A full-stack e-commerce web application built using the MERN stack, featuring user authentication, product management, and a shopping cart.",
-      img: "/icons/mern-ecommerce.png",
+      img: "/backendmern.png",
       liveURL: "https://mern-ecommerce-front-end.onrender.com/",
       githubURL: "https://github.com/PratyushJha19/MERN-Ecommerce-App",
       techStack: [
@@ -80,7 +64,7 @@ const Projects = () => {
       title: "Maha-Nanda Healthcare Website",
       description:
         "A static responsive healthcare website built with ReactJS for my client Maha-Nanda Healthcare, featuring a modern design and user-friendly interface.",
-      img: "/icons/mern-ecommerce.png",
+      img: "/mahananda.png",
       liveURL: "https://mahaananda-healthcare.netlify.app/",
       githubURL: "https://github.com/PratyushJha19/Mahaananda-HealthCare",
       techStack: ["React", "HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -92,7 +76,7 @@ const Projects = () => {
         "A 2D shooter platformer game developed using Unity Engine, featuring engaging gameplay mechanics, enemy AI, player power ups and level design.",
       img: "/icons/mern-ecommerce.png",
       liveURL: "",
-      githubURL: "",
+      githubURL: "https://github.com/PratyushJha19/2D-Shooting-PLatformer",
       techStack: [
         "Unity",
         "C#",
@@ -124,7 +108,7 @@ const Projects = () => {
       title: "Python Django Ecommerce Application",
       description:
         "A full-stack e-commerce web application built using Python Django, featuring user authentication, product management, and a shopping cart.",
-      img: "/icons/mern-ecommerce.png",
+      img: "/djangoapp.png",
       liveURL: "",
       githubURL: "https://github.com/PratyushJha19/E-Com-Project",
       techStack: [
@@ -170,27 +154,27 @@ const Projects = () => {
       title: "Static Demo Website",
       description:
         "A static demo website built with HTML CSS & JS, showcasing a modern design and responsive layout, ideal for demonstrating web development skills.",
-      img: "/icons/mern-ecommerce.png",
+      img: "/loso.png",
       liveURL: "https://pratyushjha19.github.io/LOSO-Static-Site-Demo/",
       githubURL: "https://github.com/PratyushJha19/LOSO-Static-Site-Demo",
       techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       category: "Front-end Web Development",
     },
-    {
-      title: "Dice Game Website",
-      description:
-        "A static demo website built with HTML CSS & JS, in which there are 2 die which will give out random number from 1 to 6 whichever gives the greater number that dice wins and it can be done by refreshing the page",
-      img: "/icons/mern-ecommerce.png",
-      liveURL: "https://pratyushjha19.github.io/Dice-Challenge-Website/",
-      githubURL: "https://github.com/PratyushJha19/Dice-Challenge-Website",
-      techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      category: "Front-end Web Development",
-    },
+    // {
+    //   title: "Dice Game Website",
+    //   description:
+    //     "A static demo website built with HTML CSS & JS, in which there are 2 die which will give out random number from 1 to 6 whichever gives the greater number that dice wins and it can be done by refreshing the page",
+    //   img: "/icons/mern-ecommerce.png",
+    //   liveURL: "https://pratyushjha19.github.io/Dice-Challenge-Website/",
+    //   githubURL: "https://github.com/PratyushJha19/Dice-Challenge-Website",
+    //   techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    //   category: "Front-end Web Development",
+    // },
     {
       title: "Simon Game Website",
       description:
         "A static demo website built with HTML CSS & JS, in which there are 4 buttons which will light up in a random order and the player has to repeat the same order by clicking on the buttons",
-      img: "/icons/mern-ecommerce.png",
+      img: "/simon.png",
       liveURL: "https://pratyushjha19.github.io/Simon-Game-Website",
       githubURL: "https://github.com/PratyushJha19/Simon-Game-Website",
       techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -200,7 +184,7 @@ const Projects = () => {
       title: "Drum Kit Website",
       description:
         "A static demo website built with HTML CSS & JS, in which there are 7 buttons which will play different sounds when clicked and also can be played using keyboard keys",
-      img: "/icons/mern-ecommerce.png",
+      img: "/drum.png",
       liveURL: "https://pratyushjha19.github.io/Drum-Kit-Website",
       githubURL: "https://github.com/PratyushJha19/Drum-Kit-Website",
       techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -210,7 +194,7 @@ const Projects = () => {
       title: "Tin Dog Website",
       description:
         "A static demo website built with HTML CSS & JS, showcasing a modern design and responsive layout, ideal for demonstrating web development skills.",
-      img: "/icons/mern-ecommerce.png",
+      img: "/tindog.png",
       liveURL: "https://pratyushjha19.github.io/Tin-Dog-Website",
       githubURL: "https://github.com/PratyushJha19/Tin-Dog-Website",
       techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -219,27 +203,70 @@ const Projects = () => {
   ];
   return (
     <Layout>
-      <section className="tech-skills-section">
+      <section className="projects-section py-5">
         <Container>
-          <div className="text-center mb-4">
-            <h2>
-              Technical <span className="highlight">Skills</span>
+          <div className="text-center mb-5">
+            <h2 className="section-title">
+              <span className="highlight">My Projects</span>
             </h2>
-            <p className="subtitle">
-              Technologies and tools I'm proficient with
+            <p className="section-subtitle">
+              Explore my portfolio of hosted projects with source code
             </p>
           </div>
           <Row>
-            {skills.map((skill, idx) => (
-              <Col key={idx} xs={2} sm={2} md={6} className="mb-4">
-                <Card className="skill-card text-center">
-                  <Card.Body>
-                    <img
-                      src={skill.icon}
-                      alt={skill.name}
-                      className="skill-icon mb-2"
-                    />
-                    <div className="skill-name">{skill.name}</div>
+            {projects.map((project, idx) => (
+              <Col key={idx} xs={10} sm={4} md={6} className="mb-4">
+                <Card className="project-card h-100">
+                  <Card.Img
+                    variant="top"
+                    src={project.img}
+                    className="project-img"
+                  />
+                  <Card.Body className="d-flex flex-column">
+                    <Card.Title className="project-title">
+                      {project.title}
+                    </Card.Title>
+                    <Card.Text className="project-text mb-2">
+                      {project.description}
+                    </Card.Text>
+                    <div className="mb-3">
+                      {project.techStack.map((tech, i) => (
+                        <Badge
+                          key={i}
+                          pill
+                          bg="secondary"
+                          className="me-1 mb-1 stack-badge"
+                        >
+                          {tech}
+                        </Badge>
+                      ))}
+                    </div>
+                    <div className="mt-auto d-flex gap-2">
+                      {project.liveURL && (
+                        <Button
+                          variant="warning"
+                          size="sm"
+                          href={project.liveURL}
+                          target="_blank"
+                          className="demo-btn"
+                        >
+                          <FaExternalLinkAlt className="me-1" />
+                          Live Demo
+                        </Button>
+                      )}
+                      {project.githubURL && (
+                        <Button
+                          variant="dark"
+                          size="sm"
+                          href={project.githubURL}
+                          target="_blank"
+                          className="source-code-btn"
+                        >
+                          <FaCode className="me-1" />
+                          Source Code
+                        </Button>
+                      )}
+                    </div>
                   </Card.Body>
                 </Card>
               </Col>

@@ -1,3 +1,98 @@
 * {
   font-family: "Nunito", sans-serif;
 }
+.projects-section {
+  background: radial-gradient(circle at 40% 40%, #0b0d14, #0b1b2b);
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e1631f !important;
+}
+
+.section-subtitle {
+  color: #dcdcdc !important;
+  font-size: 1rem;
+}
+
+.highlight {
+  color: #e1631f;
+}
+
+.project-card {
+  background-color: #1f2330 !important;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-img {
+  border-radius: 12px 12px 0 0;
+  height: 330px;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem;
+  color: white !important;
+}
+
+.project-text {
+  font-size: 1rem !important;
+  color: #f4f4f4 !important;
+}
+
+.stack-badge {
+  font-size: 0.9rem !important;
+  padding: 0.3rem 0.5rem !important;
+}
+
+button.btn-warning {
+  background: linear-gradient(to right, #df7c2b, #ff7b00) !important;
+  border: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.demo-btn {
+  background: linear-gradient(to right, #df7c2b, #ff7b00) !important;
+  border: none !important;
+  color: #000;
+  font-weight: 600 !important;
+  padding: 0.5rem 1rem;
+  font-size: large !important;
+}
+
+.demo-btn:hover {
+  background: linear-gradient(to right, #ff7300, #d3822b) !important;
+  color: white !important;
+}
+
+.source-code-btn {
+  background: linear-gradient(to right, #090718, #0e1c1b) !important;
+  border: none !important;
+  color: #000;
+  font-weight: 600 !important;
+  padding: 0.5rem 1rem;
+  font-size: large !important;
+}
+
+.source-code-btn:hover {
+  background: linear-gradient(to left, #090718, #0e1c1b) !important;
+  color: white !important;
+}
+
+button.btn-dark {
+  background-color: #343a40;
+  border: none;
+  font-weight: 600;
+}
