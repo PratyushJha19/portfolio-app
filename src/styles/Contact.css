@@ -1,0 +1,66 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+.contact-form-section {
+  background: radial-gradient(circle at 50% 50%, #0b0d14, #0b1b2b);
+  padding: 100px 0;
+  color: #fff;
+}
+
+.form-wrapper {
+  background-color: #131620;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.form-title .highlight {
+  color: #e1631f;
+}
+
+.form-subtitle {
+  text-align: center;
+  color: #c5c5c5;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control {
+  background-color: #2a2f3b;
+  color: #fff;
+  border: none;
+  padding: 12px;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+.send-btn {
+  background: linear-gradient(to right, #df7c2b, #ff7b00) !important;
+  color: white;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.send-btn:hover {
+  background: linear-gradient(to right, #ff7b00, #df7c2b) !important;
+  opacity: 0.9;
+  transform: translateY(-2px);
+  color: black !important;
+}

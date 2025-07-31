@@ -17,10 +17,7 @@ const Footer = () => {
 
         <div className="d-flex justify-content-center flex-wrap gap-3 mt-4">
           <div className="footer-col">
-            <a
-              href="mailto:jhapratyush2006@gmail.com"
-              className="footer-card text-decoration-none"
-            >
+            <a href="/contact" className="footer-card text-decoration-none">
               <FaEnvelope className="footer-icon" />
               <div className="footer-label">Gmail</div>
             </a>

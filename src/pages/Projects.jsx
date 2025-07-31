@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 import { Link } from "react-router-dom";
-import "../styles/Projects.css"; // Importing the Home.css styles
+import "../styles/Projects.css"; // Importing the Projects.css styles
 import {
   FaCode,
   FaGamepad,
@@ -21,6 +21,8 @@ import {
   Badge,
   Image,
 } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Projects = () => {
   const projects = [
@@ -74,8 +76,8 @@ const Projects = () => {
       title: "2D Shooter Platformer Game",
       description:
         "A 2D shooter platformer game developed using Unity Engine, featuring engaging gameplay mechanics, enemy AI, player power ups and level design.",
-      img: "/icons/mern-ecommerce.png",
-      liveURL: "",
+      img: "/platformer.png",
+      liveURL: "https://pratyush-jha.itch.io/2d-platformer-shooter",
       githubURL: "https://github.com/PratyushJha19/2D-Shooting-PLatformer",
       techStack: [
         "Unity",
@@ -91,8 +93,8 @@ const Projects = () => {
       title: "FPS Zombie Shooter Game",
       description:
         "A first-person zombie shooter game developed using Unity Engine & C#, featuring immersive gameplay, enemy AI, and realistic graphics & mechanics.",
-      img: "/icons/mern-ecommerce.png",
-      liveURL: "",
+      img: "/zombie.png",
+      liveURL: "https://pratyush-jha.itch.io/fps-zombie-shooter",
       githubURL: "https://github.com/PratyushJha19/Zombie-Runner",
       techStack: [
         "Unity",
@@ -128,8 +130,8 @@ const Projects = () => {
       title: "Simple Driving Simulator",
       description:
         "A simple driving simulator game developed using Unity Engine & C#, featuring highscore system, player energy & recharge, car physics, driving controls, and a basic environment.",
-      img: "/icons/mern-ecommerce.png",
-      liveURL: "",
+      img: "/driving.png",
+      liveURL: "https://pratyush-jha.itch.io/simple-driving",
       githubURL: "https://github.com/PratyushJha19/Simple-Driving",
       techStack: ["Unity", "C#", "Game Development"],
       category: "Unity 3D Game Development",
@@ -138,8 +140,8 @@ const Projects = () => {
       title: "Asteroid Avoider Game",
       description:
         "A simple 2.5D game developed using Unity Engine & C#, where the player controls a spaceship and must avoid asteroids with Unity ads integration for extra lives for the player and developer's monetisation.",
-      img: "/icons/mern-ecommerce.png",
-      liveURL: "",
+      img: "/asteroid.jpg",
+      liveURL: "https://pratyush-jha.itch.io/asteroid-avoider",
       githubURL: "https://github.com/PratyushJha19/Asteroid-Avoider",
       techStack: [
         "Unity",
@@ -203,19 +205,20 @@ const Projects = () => {
   ];
   return (
     <Layout>
+      {/* Projects Section */}
       <section className="projects-section py-5">
         <Container>
           <div className="text-center mb-5">
-            <h2 className="section-title">
+            <h2 className="project-title-1">
               <span className="highlight">My Projects</span>
             </h2>
-            <p className="section-subtitle">
+            <p className="project-subtitle">
               Explore my portfolio of hosted projects with source code
             </p>
           </div>
           <Row>
             {projects.map((project, idx) => (
-              <Col key={idx} xs={10} sm={4} md={6} className="mb-4">
+              <Col key={idx} xs={12} sm={4} md={6} className="mb-4">
                 <Card className="project-card h-100">
                   <Card.Img
                     variant="top"
@@ -273,6 +276,29 @@ const Projects = () => {
             ))}
           </Row>
         </Container>
+      </section>
+
+      {/* Contact Section */}
+      <section>
+        <div className="connect-section text-center">
+          <Container>
+            <h2 className="connect-heading">
+              Connect With <span className="highlight">Me</span>
+            </h2>
+            <p className="connect-text">
+              Want to get in touch? Feel free to reach out for collaborations,
+              inquiries, or just a friendly chat! I'm always open to new
+              opportunities and connections.
+            </p>
+            <Button
+              variant="link"
+              className="contact-btn"
+              href="/contact" // Change this to your actual contact link or email
+            >
+              <i className="bi bi-box-arrow-up-right me-2"></i> Contact Me
+            </Button>
+          </Container>
+        </div>
       </section>
     </Layout>
   );

@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
+// Design inspired from - https://aman-kumar-sinha.vercel.app/portfolio
+
 function App() {
   return (
     <BrowserRouter>

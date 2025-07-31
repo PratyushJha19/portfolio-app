@@ -386,7 +386,7 @@ const Home = () => {
 
       {/* Projects Section */}
       <section className="">
-        <div className="projects-section">
+        <div className="projects-home-section">
           <Container className="text-center">
             <h2 className="resume-heading">
               My <span className="highlight">Projects</span>
