@@ -396,7 +396,7 @@ const Home = () => {
             </p>
             <Link className="projects-btn mt-4" to="/projects">
               <FaExternalLinkAlt className="me-2" />
-              Download Resume
+              My Projects
             </Link>
           </Container>
         </div>
