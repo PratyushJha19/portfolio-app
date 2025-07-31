@@ -152,8 +152,12 @@ const Home = () => {
               </p>
 
               <div className="d-flex justify-content-center justify-content-md-start gap-3">
-                <button className="btn hire-btn">Hire Me →</button>
-                <button className="btn view-btn">View Projects</button>
+                <Link className="btn view-btn" to="/projects">
+                  View Projects
+                </Link>
+                <Link className="btn hire-btn" to="/contact">
+                  Hire Me →
+                </Link>
               </div>
             </div>
 
