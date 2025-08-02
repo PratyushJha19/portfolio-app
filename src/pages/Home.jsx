@@ -141,14 +141,16 @@ const Home = () => {
 
               <p className="sub-text mb-3">
                 I can build user-friendly{" "}
-                <span className="highlight">Full Stack</span> applications and
-                <span className="highlight"> 2D & 3D games</span> for you.
+                <span className="highlight">Full Stack</span> applications,{" "}
+                <span className="highlight"> Unity 2D/3D</span> games and{" "}
+                <span className="highlight">Python</span> Applications for you.
               </p>
 
               <p className="tech-stack mb-4">
-                <strong>ReactJS</strong>, <strong>NodeJS</strong>,{" "}
-                <strong>ExpressJS</strong>, <strong>MongoDB</strong>, and{" "}
-                <strong>Unity Engine</strong>.
+                <strong>Unity Engine</strong>, <strong>NodeJS</strong>,{" "}
+                <strong>ExpressJS</strong>, <strong>MongoDB</strong>,{" "}
+                <strong>Python/Django</strong>, <strong>PostgreSQL </strong>and{" "}
+                <strong>ReactJS</strong>.
               </p>
 
               <div className="d-flex justify-content-center justify-content-md-start gap-3">
@@ -208,8 +210,9 @@ const Home = () => {
                 </div>
                 <h5 className="service-title">Back-End Development</h5>
                 <p className="service-text">
-                  Building robust server-side applications with NodeJS,
-                  ExpressJS, MongoDB, Django, MySQL, EJS.
+                  Building robust server-side applications with NodeJs,
+                  ExpressJs, MongoDB, Django, MySQL, PostgreSQL and EJS — also
+                  experienced in web scraping using Playwright.
                 </p>
               </div>
             </div>
