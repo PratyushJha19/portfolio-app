@@ -73,6 +73,28 @@ const Projects = () => {
       category: "Full Stack Web Development",
     },
     {
+      title: "Chatting App (WhatsApp Clone)",
+      description:
+        "A full-stack cross-platform Android/IOS application to chat with friends, made using React-Native, Node.js, Express.js, Socket.io, and MongoDB.",
+      img: "/ChatApp.png",
+      liveURL: "",
+      githubURL: "https://github.com/PratyushJha19/ChatApp",
+      techStack: [
+        "NodeJs",
+        "ExpressJs",
+        "MongoDB",
+        "Socket.io",
+        "React-Native",
+        "ReactJS",
+        "JavaScript",
+        "Git",
+        "REST API",
+        "Android Development",
+        "IOS Development",
+      ],
+      category: "Full Stack Android/IOS Development",
+    },
+    {
       title: "2D Shooter Platformer Game",
       description:
         "A 2D shooter platformer game developed using Unity Engine, featuring engaging gameplay mechanics, enemy AI, player power ups and level design.",
