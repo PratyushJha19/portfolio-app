@@ -77,7 +77,7 @@ const Projects = () => {
       description:
         "A full-stack cross-platform Android/IOS application to chat with friends, made using React-Native, Node.js, Express.js, Socket.io, and MongoDB.",
       img: "/ChatApp.png",
-      liveURL: "",
+      liveURL: "Not Deployed",
       githubURL: "https://github.com/PratyushJha19/ChatApp",
       techStack: [
         "NodeJs",
@@ -143,7 +143,7 @@ const Projects = () => {
       description:
         "A full-stack e-commerce web application built using Python Django, featuring user authentication, product management, and a shopping cart.",
       img: "/djangoapp.png",
-      liveURL: "",
+      liveURL: "Not Deployed",
       githubURL: "https://github.com/PratyushJha19/E-Com-Project",
       techStack: [
         "Python",
